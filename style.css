@@ -94,3 +94,47 @@
   text-transform: none;
   text-decoration: none;
 }
+
+@media (min-width: 1290px) {
+  .desktop-container {
+    display: initial;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  .tablet-container {
+    display: none;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 1289px) {
+  .tablet-container {
+    display: initial;
+  }
+
+  .desktop-container {
+    display: none;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+}
+
+@media (max-width: 780px) {
+  .desktop-container {
+    display: none;
+  }
+
+  .mobile-container {
+    display: initial;
+  }
+
+  .tablet-container {
+    display: none;
+  }
+}
+
+
