@@ -137,4 +137,26 @@
   }
 }
 
+.tablet-frame245 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+}
+
+.tablet-text60 {
+  color: var(--dl-color-gray-0);
+  height: auto;
+  font-size: 14px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
 
